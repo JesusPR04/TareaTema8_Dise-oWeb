@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceFood</title>
+    <link rel="stylesheet" href="CSS/estilo.css">
+    <link rel="icon" href="Imagenes/icono.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <header>
+        <img src="Imagenes/logo.png" id="imagenPrincipal" alt="Logo">
+        <p>¡Donde se encuentran los sabores extraordinarios!</p>
+    </header>
+
+    <h2 class="menuCompraTitulo">Proceso de compra</h2>
+
+    <section>
+
+        <form action="/procesar_compra" method="get" id="formCompra">
+
+            <div>
+                <label for="nombre">Nombre*</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+
+            <div>
+                <label for="apellidos">Apellidos*</label>
+                <input type="text" id="apellidos" name="apellidos" required>
+            </div>
+
+            <div>
+                <label for="pais">País/Región...*</label>
+                <input type="text" id="pais" value="España" readonly>
+            </div>
+
+            <div>
+                <label for="direccion">Dirección de la Calle*</label>
+                <input type="text" id="direccion" name="direccion" required>
+            </div>
+
+            <div>
+                <label for="numero">Número/Planta/Piso*</label>
+                <input type="text" id="numero" name="numero">
+            </div>
+
+            <div>
+                <label for="provincia">Provincia*</label>
+                <input type="text" id="provincia" name="provincia" required>
+            </div>
+
+            <div>
+                <label for="localidad">Localidad/Ciudad*</label>
+                <input type="text" id="localidad" name="localidad" required>
+            </div>
+
+            <div>
+                <label for="codigo_postal">Código Postal*</label>
+                <input type="number" id="codigo_postal" name="codigo_postal" required>
+            </div>
+
+            <div>
+                <label for="numero_tarjeta">Número de la Tarjeta*</label>
+                <input type="number" id="numero_tarjeta" name="numero_tarjeta" required>
+            </div>
+
+            <div>
+                <label for="fecha_caducidad">Fecha de Caducidad*</label>
+                <input type="text" id="fecha_caducidad" name="fecha_caducidad" placeholder="MM/AA" required>
+            </div>
+
+            <div>
+                <label for="emisor_tarjeta">Emisor de la Tarjeta*</label>
+                <select id="emisor_tarjeta" name="emisor_tarjeta" required>
+                    <option value="visa">Visa</option>
+                    <option value="mastercard">MasterCard</option>
+                    <option value="amex">Amex</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="cvv">CVV*</label>
+                <input type="text" id="cvv" name="cvv" required>
+            </div>
+
+            <div>
+                <!-- Botón de Confirmar Compra -->
+                <a class="boton" href="index.html">Confirmar comprar</a>
+            </div>
+
+        </form>
+
+    </section>
+
+    <footer id="footer">
+        <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><span
+                property="dct:title">SpaceFood</span> por <span property="cc:attributionName">Jesús Pastor</span> está
+            marcado con <a id="copyRight"  href="http://creativecommons.org/publicdomain/zero/1.0?ref=chooser-v1" target=" _blank"
+                rel="licencia noopener noreferrer" style="display:inline-block;">CC0 1.0<img
+                    style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+                    src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img
+                    style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+                    src="https://mirrors.creativecommons.org/presskit/icons/zero.svg?ref=chooser-v1"></a></p>
+        <div id="redes-sociales">
+            <img src="Imagenes/instagram.png" alt="Icono de instagram">
+            <img src="Imagenes/youtube.png" alt="Icono de youtube">
+            <img src="Imagenes/pinterest.png" alt="Icono de pinterest">
+        </div>
+    </footer>
+
+</body>
+
+</html>

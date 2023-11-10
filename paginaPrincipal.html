@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceFood</title>
+    <link rel="stylesheet" href="CSS/estilo.css">
+    <link rel="icon" href="Imagenes/icono.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <img src="Imagenes/logo.png" id="imagenPrincipal" alt="Logo">
+        <p>¡Bienvenido a SPACEFOOD!</p>
+    </header>
+
+    <main>
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 4</div>
+                <img src="Imagenes/slide1.png" height="100%">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 4</div>
+                <img src="Imagenes/slide2.png" height="100%">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 4</div>
+                <img src="Imagenes/slide3.png" height="100%">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 4</div>
+                <img src="Imagenes/slide4.png" height="100%">
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center" >
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+
+        <a class="animated-link" href="index.html">Ver menú</a>
+
+    </main>
+
+    <footer id="footer">
+        <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><span
+                property="dct:title">SpaceFood</span> por <span property="cc:attributionName">Jesús Pastor</span> está
+            marcado con <a id="copyRight" href="http://creativecommons.org/publicdomain/zero/1.0?ref=chooser-v1"
+                target=" _blank" rel="licencia noopener noreferrer" style="display:inline-block;">CC0 1.0<img
+                    style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+                    src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img
+                    style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+                    src="https://mirrors.creativecommons.org/presskit/icons/zero.svg?ref=chooser-v1"></a></p>
+        <div id="redes-sociales">
+            <img src="Imagenes/instagram.png" alt="Icono de instagram">
+            <img src="Imagenes/youtube.png" alt="Icono de youtube">
+            <img src="Imagenes/pinterest.png" alt="Icono de pinterest">
+        </div>
+    </footer>
+
+    <script src="JS/principal.js"></script>
+</body>
+
+</html>
